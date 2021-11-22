@@ -25,6 +25,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .logo > span {
   color: var(--accent-color);
@@ -35,6 +36,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -46,6 +48,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contact:hover,
 .contact:focus {
@@ -66,9 +69,10 @@ ul {
   text-transform: uppercase;
 }
 .hero-button {
-  background-color: var(--accent-color);
-  font-family: inherit;
   color: var(--white-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -76,6 +80,9 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
+  border: none;
 }
 .title {
   font-weight: bold;
@@ -97,9 +104,74 @@ ul {
   line-height: 24px;
 }
 /* team-section */
-.team-section {
+.section-team {
   background-color: var(--secondary-background-color);
 }
 .team-profession {
   color: var(--secondary-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+.team-profession {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+.team-item > div {
+  background-color: var(--white-color);
+}
+/* footer */
+
+.footer-section {
+  background-color: var(--hero-background-color);
+}
+.address {
+  color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.logo.footer {
+  color: var(--white-color);
+}
+/* portfolio */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+
+  cursor: pointer;
+  border: none;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+/* projects */
+.project-link {
+  text-decoration: none;
+}
+.project-title {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
