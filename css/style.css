@@ -7,6 +7,7 @@
   --primary-backgroud-color: #ffffff;
   --secondary-background-color: #f5f4fa;
   --hero-background-color: #2f303a;
+  --contact-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--primary-backgroud-color);
@@ -104,7 +105,7 @@ ul {
   line-height: 24px;
 }
 /* team-section */
-.section-team {
+.section.team {
   background-color: var(--secondary-background-color);
 }
 .team-profession {
@@ -127,7 +128,7 @@ ul {
 }
 /* footer */
 
-.footer-section {
+.footer.section {
   background-color: var(--hero-background-color);
 }
 .address {
@@ -144,7 +145,7 @@ ul {
   color: var(--primary-text-color);
   background-color: var(--secondary-background-color);
 
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -158,6 +159,10 @@ ul {
 .button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+.footer .contact {
+  color: var(--contact-color);
+  text-decoration: none;
 }
 /* projects */
 .project-link {
